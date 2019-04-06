@@ -10,4 +10,8 @@
 </nav> <?php endif; ?>
      <?php get_template_part( 'content', get_post_format() ); ?> 
 	   </div> <!-- /.blog-main -->   <?php get_sidebar(); ?>
+    <h1>Title</h1>
+<?php the_title();?>
+<h1>Content</h1>
+<?php the_content();?>
 	    </div> <!-- /.row --> <?php get_footer(); ?> 
